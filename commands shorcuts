@@ -1,5 +1,5 @@
 sudo systemctl start  vsftpd ( start vsftpd server )
 sudo ./lampp start ( start lampp server )
 sudo .studio.sh ( start android studio )
-dd if=/dev/cdrom of=/media/doctarhyf/2498-E033/KASPERSKY/kaspersky.iso bs=2048 ( copy cd to file )
+dd if=/dev/cdrom of=/path/to/file.iso bs=2048 ( copy cd to file )
 
