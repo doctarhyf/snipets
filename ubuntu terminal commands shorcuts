@@ -2,4 +2,5 @@ sudo systemctl start  vsftpd ( start vsftpd server )
 sudo ./lampp start ( start lampp server )
 sudo .studio.sh ( start android studio )
 dd if=/dev/cdrom of=/path/to/file.iso bs=2048 ( copy cd to file )
+sudo gdebi rstudio-xenial-1.1.379-amd64.deb ( run deb files )
 
