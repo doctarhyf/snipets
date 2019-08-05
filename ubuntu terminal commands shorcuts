@@ -1,7 +1,14 @@
 sudo systemctl start  vsftpd ( start vsftpd server )
 sudo ./lampp start ( start lampp server )
-sudo .studio.sh ( start android studio )
+sudo ./studio.sh ( start android studio )
 dd if=/dev/cdrom of=/path/to/file.iso bs=2048 ( copy cd to file )
 sudo gdebi rstudio-xenial-1.1.379-amd64.deb ( run deb files )
 gcc `pkg-config --cflags gtk+-3.0` -o example-0 example-0.c `pkg-config --libs gtk+-3.0` ( gtk compilation )
+sudo dd if=filename.iso of=/dev/sdc bs=4M
+elementaryos-5.0-stable.20181016
+
++====== SFML ======+
+g++ -c main.cpp ( sfml compile )
+g++ main.o -o sfml-app -lsfml-graphics -lsfml-window -lsfml-system ( sflm linking )
++====== SFML/END ======+
 
